@@ -20,7 +20,9 @@
 
         public void Display()
         {
-            Console.WriteLine($"Name: {name}\n Capacity: {seatsAvailable} / {maxPassenger}\nLimited: {limited}");
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine($"Name: {name}\nCapacity: {seatsAvailable} / {maxPassenger}\nLimited: {limited}");
+            Console.WriteLine("-------------------------------");
         }
 
         public void GetIn(Passenger passenger)

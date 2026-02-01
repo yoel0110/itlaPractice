@@ -25,7 +25,6 @@ namespace oopFundamental
             Passenger p5 = new("Jhon", "Does");
           
 
-            Console.WriteLine("-------------------------------");
             Bus bu2 = new("Expreso Punta Cana", true, 3);
             bu2.GetIn(p1);
             bu2.GetIn(p2);
@@ -34,7 +33,6 @@ namespace oopFundamental
 
             bu2.Display();
 
-            Console.WriteLine("-------------------------------");
             Bus bu1 = new("Caribe Tour", false, 20);
             bu1.GetIn(p4);
             bu1.GetIn(p5);
