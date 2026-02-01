@@ -6,17 +6,16 @@ namespace oopFundamental
     {
         public static void Main(string[] args)
         {
-            var corola = new Car();
 
-            corola.PrintState();
-            corola.SpeedUp(240);
-            corola.PrintState();
-
-            Car test = new("Juan", 140);
+            Car test = new("Juan", 140, false);
 
             test.PrintState();
+            test.On(); //Turn on the radio
             test.SpeedUp(10);
+            test.Off(); //Turn off the radio
             test.PrintState();
+
+
 
             //Bus
             Passenger p1 = new("Juan", "Jimenez");
@@ -24,9 +23,7 @@ namespace oopFundamental
             Passenger p3 = new("Yoel", "Lebron");
             Passenger p4 = new("Jose", "Jimenez");
             Passenger p5 = new("Jhon", "Does");
-            Passenger p6 = new("Bill", "Gate");
-            Passenger p7 = new("The", "Fruta");
-            Passenger p8 = new("Car", "Cox");
+          
 
             Console.WriteLine("-------------------------------");
             Bus bu2 = new("Expreso Punta Cana", true, 3);
