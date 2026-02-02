@@ -1,6 +1,6 @@
 ﻿namespace oopFundamental
 {
-    class Bus
+    internal class Bus
     {
         private string name = string.Empty;
         private int maxPassenger;
@@ -55,4 +55,6 @@
         }
 
     }
+
+    
 }
