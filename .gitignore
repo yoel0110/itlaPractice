@@ -416,3 +416,5 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+webApi/WebApplication1/ 
+/advanced/CollectionsandGenerics
